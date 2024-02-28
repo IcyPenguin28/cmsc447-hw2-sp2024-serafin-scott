@@ -1,0 +1,215 @@
+* {
+    font-family: "Arial Black";
+}
+
+body {
+    background: linear-gradient(-30deg, #994c34, #862148, #0e465a, #116d58);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes diagonal_slide {
+    0% {
+        background-position: 0px 0px;
+    }
+
+    100% {
+        background-position: 200px 200px;
+    }
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 2px solid lightgray;
+    padding: 5%;
+    align-content: center;
+    background-color: white;
+}
+
+thead th {
+    width: 25%;
+    background-color: crimson;
+    border: 2px solid #7c1921;
+    color: white;
+    font-size: xx-large;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    border-style: none;
+    padding: 20px 40px;
+    font-size: x-large;
+    border-radius: 8px;
+    color: white;
+    margin: 2%;
+    transition: 0.2s;
+}
+
+button:hover {
+    box-shadow: 5px 5px 8px black;
+    cursor: pointer;
+}
+
+button:focus {
+    box-shadow: none;
+    color: #777777;
+    transition: 0s;
+}
+
+#homeButton {
+    background-color: #ffd900;
+}
+
+#homeButton:hover {
+    background-color: #ffea74;
+}
+
+#homeButton:focus {
+    background-color: #74692b;
+}
+
+#createButton {
+    background-color: limegreen;
+}
+
+#createButton:hover {
+    background-color: #77FF55;
+}
+
+#createButton:focus {
+    background-color: #245218;
+}
+
+#searchButton {
+    background-color: #777777;
+}
+
+#searchButton:hover {
+    background-color: #AAAAAA;
+}
+
+#searchButton:focus {
+    background-color: #333333;
+}
+
+#deleteButton {
+    background-color: red;
+}
+
+#deleteButton:hover {
+    background-color: #FF7777;
+}
+
+#deleteButton:focus {
+    background-color: #521b1b;
+}
+
+#updateButton {
+    background-color: dodgerblue;
+}
+
+#updateButton:hover {
+    background-color: #9bc3ff;
+}
+
+#updateButton:focus {
+    background-color: #152338;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: white;
+    margin: 5%;
+    font-size: 48px;
+}
+
+form {
+    margin: 10%;
+    background: url("../img/checker-bg.png") repeat;
+    background-size: auto;
+    animation: diagonal_slide 10s linear infinite;
+    box-shadow: 5px 5px 8px black;
+}
+
+label {
+    font-size: large;
+}
+
+input::placeholder {
+    font-size: small;
+    text-align: center;
+}
+
+input[type="text"] {
+    border-radius: 8px;
+    border-color: lightgray;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 20px 5px;
+    font-size: large;
+    box-shadow: 5px 5px 8px black;
+}
+
+input[type="number"] {
+    border-radius: 8px;
+    border-color: lightgray;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 20px 0px;
+    font-size: large;
+    box-shadow: 5px 5px 8px black;
+}
+
+input[type="submit"] {
+    border-style: none;
+    padding: 10px 20px;
+    font-size: large;
+    border-radius: 8px;
+    background-color: dodgerblue;
+    color: white;
+    margin: 5%;
+    transition: 0.2s;
+    box-shadow: 5px 5px 8px black;
+}
+
+input[type="submit"]:hover {
+    background-color: #9bc3ff;
+    cursor: pointer;
+}
+
+input[type="submit"]:focus {
+    background-color: #152338;
+    box-shadow: none;
+    transition: 0s;
+}
+
+#flashes {
+    color: crimson;
+}
