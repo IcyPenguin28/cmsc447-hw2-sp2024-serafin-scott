@@ -6,7 +6,7 @@ A web-based application that lets you alter and view a SQL database.
 - **SQL** - Used to create the default `database.db` file
 - **SQLite3** - Used in the back-end to handle SQL query logic as needed
 - **HTML 5 & CSS 3** - Used to display the front-end web content
-- **Flask** - Used in the back-end to host the app on a local server, and HTTP GET/POST calls made by the user
+- **Flask** - Used in the back-end to host the app on a local server and handle HTTP GET/POST calls made by the user
 - **virtualenv** - Used to hold the required dependencies in a concentrated area
 - **Spotify** - Used to keep me sane while working on this project 🙃
 
